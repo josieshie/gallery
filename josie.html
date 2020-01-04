@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <title>practice</title>
+</head>
+<style>
+body{
+    box-sizing: border-box;
+    background: white;
+    color:black;
+    
+}
+.header-upper{
+    display:flex;
+}
+.m-icon{
+    flex:3 1 ;
+padding-left: 5%
+
+
+
+
+}
+.icon-group{
+    flex: 1 1 ;
+    display: flex;
+}
+.icon-group  span{
+    flex:1 1 ;
+}
+.menu-group{
+    height:30px ;
+    width: 100%;
+    display: flex;
+    margin-left:50px;
+    background: orangered
+    
+}
+.menu-group > ul {
+    display:flex;
+    list-style: none;
+    flex:1 1
+}
+.menu-group >ul >div >li:hover{
+    color:orangered;
+}
+.menu-group >ul >div >li{
+    cursor:pointer;
+    opacity: 0;
+}
+.menu-group > ul > div:hover li{
+    opacity: 1;
+    transition: .5s
+}
+.logo{
+    flex:1 1 ;
+    display: flex;
+    align-content: center;
+    padding-top:2%;
+}
+.main{
+    padding: 0 10%;
+    margin: 10% 0;
+}
+.timebar{
+    display:flex
+}    
+.titel h1{
+    font-family: 'Times New Roman', Times, serif
+}
+.content h3{
+font-size: 20px;color: chocolate;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}    
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightslategray;
+}
+.content > .box > div{
+    /* float: right;
+    margin-left: 5% */
+    
+}
+
+content > div{
+    width:300px;
+    height:300px;
+}
+.content img{
+    height: 500px !important;
+}   
+.main-content {
+    padding-right: 20px;
+}
+
+.img-box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+margin: 5% 0 20% 0;
+}
+
+</style>
+<body>
+    <div id="page-one">
+        <div class="header">
+            <div class="header-upper">
+                <div class="m-icon">
+                    <img src="../suck-01.svg" width="20%">
+                
+                </div>
+                <div class="icon-group">
+    
+                    <span><img src="../ui d/player/logo-in.svg" alt="logo-in"></span>
+                    <span><img src="../ui d/player/new.svg" alt="new"></span>
+                    <span><img src="../ui d/player/heart.svg" alt="heart"></span>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="menu-group">
+                    <div class="logo"><img src="../ui d/player/menu.svg" alt="menu"></div>
+                    <ul>
+                        <div>導覽
+                            <li>關於我</li>
+                            <li>作品集</li>
+                            <li>歷史紀錄</li>
+                        </div>
+                    </ul>    
+                    <ul>
+                        <div>創業0 到 1 
+                            <li>怎麼做到的</li>
+                            <li>還不如回家睡</li>
+                        </div> 
+                    </ul>    
+                    <ul>
+                        <div>團隊文化與工具
+                            <li>還是不要有團隊吧</li>
+                            <li>人多嘴雜</li>
+                        </div>
+                    </ui>    
+                </div>    
+            </div>
+        </div>
+    </div>
+        <div class="main">
+            <button>123</button>
+            <div class="title">
+                <h1>Fous De Life</h1>
+            </div>
+            <div class="title-2">
+                    <h2>我要成為一個無畏投入未知領域的新創工程師<br>
+                        — 我是寫 App 的，這是我的網頁全端學習筆記</h2>
+            </div>
+            <div class="timebar">
+                <div class="word">
+                    <span><img src="../repel.svg" atl="bloger" width="30%"></span>
+                    <button>follow</button>
+                    <span>2019,10,29</span>
+                </div>
+            </div>
+        
+            
+            <div class="content row">
+                    <div class="main-content col-lg-6">
+                            <div>
+                                <p1>為什麼取這個副標題，文章最底下會說明。簡而言之最近因為工作需要，我開始找網頁全端的入門線上課程。找學習資源前，我先列出了幾個需求：</p1>
+                            </div>
+                            <h3>需求 1. 前端＋後端一起學</h3>
+                            <p1>
+                                理由同上，因為時間不多，我只想學一種程式語言就好，雖然後端的程式語言很多 (PHP、Ruby、Node.js、Python…)，但既然前端一定會學到 Javascript，後端就不想再多學其他，直接選 Node.js。
+                            </p1>
+                            <h3>
+                                需求 3. 課程中會帶我做出網站，而不只是寫程式語言練習題
+                            </h3>
+                            <p1>我大學時曾經用 W3School 自學過 HTML/CSS/Javascript，但當時沒有一個想做出的網站當作目標，而且 W3School 上面都是練習題，很快就沒耐心了。所以這次我想找的是：會帶著我做出範例網站的課程。</p1>
+                            <h3>需求 4. 最好是免費課程</h3>
+                            <p1>我先從免費的課程找起，發現大部分免費的課都不符合第三項，多數還是以練習題為主，而且後端教 Node.js 的課居然有點少… 我只好放寬限制，NT$500 以內還可接受。
+                                後來我在 Udemy 找到一堂 The Web Developer Bootcamp ，趁著特價跟朋友合購，覺得教的很清楚，而且帶著做的練習範例網站都很不錯，就把上課的筆記打下來，變成這篇文章。
+                            </p1> 
+                     </div >    
+                <div class="box col-lg-6">
+                    <div class="img-box">
+                        <img src="https://i.pinimg.com/564x/99/2a/d0/992ad0305adff2a8df6a904b4262e451.jpg" alt="bottom-with-flower">
+                    </div>
+                </div>
+          
+            </div>
+            <div class="word-2">
+                <h1>第一部分：HTML/CSS/Bootstrap
+                </h1>
+                <p>第一部分只關於「介面的呈現」，我們做出的網站不會動，按下按鈕不會有反應，單純只呈現資訊。HTML/CSS/Bootstrap 其實都不是程式語言，所謂程式語言是牽涉到.邏輯、運算這樣更複雜的東西，程式語言會在第二部分學到。</p>
+                <p1>HTML 就像網站的骨架，決定這個網站有哪些文字、圖片、按鈕、連結、表格、表單…等等，CSS 則是骨架的化妝師，決定每個元件的排版、顏色、大小。關於 CSS 的威力，可以看這個網站如何用相同的骨架(HTML)，不同的 CSS 創造出截然不同的頁面。</p>               
+                </div>
+        </div>
+    </div>
+    </body>
+</html>

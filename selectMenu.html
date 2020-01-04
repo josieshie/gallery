@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        box-sizing: border-box;
+        background: white;
+        color:black;
+    }
+
+    ul{
+        list-style: none;
+    }
+    .head-menu-bar{
+        display:flex;
+    }
+    .head-menu-bar li{
+        opacity: 0;
+    }
+    .head-menu-bar > div:hover li{
+        opacity: 1;
+        transition:.5s linear;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="head-menu-bar">
+            <div>
+                <ul>
+                    <div>蛋料理</div>
+                    <li>炒蛋</li>
+                    <li>皮蛋</li>
+                    <li>滷蛋</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <div>雞肉</div>
+                    <li>宮保雞丁</li>
+                    <li>椒麻雞</li>
+                    <li>炸雞</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <div>牛肉</div>
+                    <li>日本和牛</li>
+                    <li>溫體牛</li>
+                    <li>青椒炒牛肉</li>
+                    <li>牛排</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <div>豬肉</div>
+                    <li>豬里肌</li>
+                    <li>豬耳朵</li>
+                    <li>東坡肉</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

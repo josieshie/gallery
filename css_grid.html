@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background:rgb(76, 141, 3);
+    }
+    .container{
+        display: grid;
+        grid-gap: 3px;
+        color: aliceblue;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(8, 100px);
+    }
+    .container div{
+        background:white;
+    }
+    .container div{
+        background-size:cover;
+    }
+    .big{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .middel{
+        grid-row: span 2;
+    }
+    .long{
+        grid-column: span 2;
+    }
+    
+    
+</style>
+<body>
+    <div class="container">
+        <div></div>
+        <div class="middel" style="background-image:url('../c8fc673bced1333c6289ac91e2b089e2.jpg')"></div>
+        <div class="long" style="background-image:url('../97d4178a94a8815e95b5cbeda45d5980.jpg"></div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div> 
+        <div class="big" style="background-image:url('../01.jpg')"></div>
+        <div class="long"></div>
+        <div>1</div>
+        <div>1</div>
+        <div class="long"></div>
+        <div class="big" style="background-image:url('../01.jpg')"></div>
+        <div></div>
+        <div></div>
+        <div class="middel" style="background-image:url('../c8fc673bced1333c6289ac91e2b089e2.jpg')"></div>
+        <div class="long"></div>
+        <div></div>
+        <div></div>
+        <div class="long"></div>
+     
+
+
+    </div>
+</body>
+</html>
